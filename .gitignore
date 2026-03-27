@@ -1,0 +1,7 @@
+# === File Temporanei di Compilazione ===
+*.o
+*.out
+
+# === Configurazioni Locali ===
+.vscode/
+.DS_Store
