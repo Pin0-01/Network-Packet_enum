@@ -16,7 +16,7 @@ Questo progetto implementa un sistema di elaborazione di pacchetti di rete, simu
 
 ## Architettura del Sistema
 
-Il sistema si basa su tre pilastri fondamentali definiti tramite enumerazioni:
+Il sistema si basa su tre scenari definiti tramite enumerazioni:
 
 ### 1. Gestione dei Tipi e Protocolli
 
@@ -30,7 +30,7 @@ Per garantire la massima sicurezza, sono stati utilizzati diversi tipi di enumer
 
 ### 2. La Classe `Packet`
 
-Il cuore del sistema. Ogni oggetto `Packet` incapsula:
+Ogni oggetto `Packet` incapsula:
 
 - Il tipo di dato trasportato.
 
@@ -42,7 +42,7 @@ Il cuore del sistema. Ogni oggetto `Packet` incapsula:
 
 ## Logica di Validazione (Validation Logic)
 
-La parte più critica del progetto è il metodo `validatePacket()`. Il sistema applica regole specifiche per determinare se un pacchetto è legittimo:
+ Il sistema applica regole specifiche per determinare se un pacchetto è legittimo:
 
 - **Pacchetti DATA**: Sono considerati `VALID` solo se utilizzano protocolli di trasporto come `TCP` o `UDP`.
 
