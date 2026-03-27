@@ -54,7 +54,7 @@ La parte più critica del progetto è il metodo `validatePacket()`. Il sistema a
 
 ---
 
-## 💻 Struttura dei File
+## Struttura dei File
 
 - `include/PacketType.hpp`: Definizione dell'enum per i tipi di pacchetto.
 
